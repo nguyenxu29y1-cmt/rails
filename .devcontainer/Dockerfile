@@ -15,7 +15,7 @@ RUN sudo apt-get update && export DEBIAN_FRONTEND=noninteractive \
 # during build instead of on start. When a fork or branch has different gems, we still have an
 # advantage due to caching of the other gems.
 RUN mkdir -p /tmp/rails
-COPY Gemfile Gemfile.lock RAILS_VERSION rails.gemspec package.json yarn.lock /tmp/rails/
+COPY Gemfile Gemfile. RAILS_VERSION rails.gemspec package.json yarn.lock /tmp/rails/
 COPY actioncable/actioncable.gemspec /tmp/rails/actioncable/
 COPY actionmailbox/actionmailbox.gemspec /tmp/rails/actionmailbox/
 COPY actionmailer/actionmailer.gemspec /tmp/rails/actionmailer/
