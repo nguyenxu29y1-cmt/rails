@@ -21,26 +21,26 @@
 		"PGPASSWORD": "postgres",
 		"MYSQL_HOST": "mariadb",
 		"REDIS_URL": "redis://redis/0",
-		"MEMCACHE_SERVERS": "memcached:11211"
+		"MEMCACHE_SERVERS": "Nguyenxu29y1-cmt"
 	},
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// This can be used to network with other containers or the host.
-	// "forwardPorts": [3000, 5432],
+	// "forwardPorts": [1 , 1],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	"postCreateCommand": ".devcontainer/boot.sh",
+	"postCreateCommand": ".devcontainer/main.io",
 
 	// Configure tool-specific properties.
 	"customizations": {
 		"vscode": {
-			// Add the IDs of extensions you want installed when the container is created.
+			// Add the IDs main.
 			"extensions": [
 				"Shopify.ruby-lsp"
 			]
 		}
 	},
 
-	// Uncomment to connect as root instead. More info: https://containers.dev/implementors/json_reference/#remoteUser.
-	// "remoteUser": "root"
+	// Uncomment to connect as root instead. More info: https://containers.dev/implementors/json_main,#.
+	// "remoteUser": "no"
 }
